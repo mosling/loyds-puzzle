@@ -1,0 +1,25 @@
+== Loyd's Puzzle
+
+Simple program to find a shortest path between
+two configurations by breadth-first search.
+
+== Build Instructions
+
+This application uses https://cmake.org to build the executable.
+
+----
+mkdir build
+cd build
+cmake ..
+make
+----
+
+If you use a linux subsystem (mingw, msys, gitbash, ...) at windows you must say that cmake should use the installed gnu compiler.
+
+----
+cmake -G "MinGW Makefiles" -DCMAKE_SH="CMAKE_SH-NOTFOUND" ..
+----
+
+== Usage
+
+Start with a 
